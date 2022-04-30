@@ -20,14 +20,15 @@
 }
 
 #search-bar {
-    width: 300px;
+    width: 28vw;
+    height: 200%;
     z-index: 2;
     background-color: transparent;
-    height: 125%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     border-radius: 32px;
-    text-indent: 30px;
+    text-indent: 40px;
     border: solid lightgray 1px;
-    font-size: 10px;
+    font-size: 16px;
 }
 
 #search-bar:focus {
@@ -51,8 +52,8 @@ img:hover{
 }
 
 #search-image {
-    width: 18px;
-    height: 18px;
+    width: 32px;
+    height: 32px;
     margin-top: -1.5%;
     margin-left: -26%;
 }
@@ -73,7 +74,7 @@ img:hover{
     width: 100%;
     white-space: nowrap;
     z-index: 1;
-    font-size: 8px;
+    font-size: 14px;
     font-family: Google Sans, 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
@@ -101,8 +102,7 @@ img:hover{
     align-items: center;
 
     grid-template-columns: 1fr 1fr 1fr 12fr 1fr 1fr 1fr;
-    font-size: 8.2px;
-    column-gap: 0.3px;
+    font-size: 14px;
     text-align: center;
     white-space: nowrap;
 }
@@ -138,7 +138,7 @@ img:hover{
     display: grid;
     align-items: center;
     grid-template-columns: 3% 3% 3% 3%;
-    font-size: 8.2px;
+    font-size: 14px;
     column-gap: 0.3px;
     text-align: center;
     white-space: nowrap;
@@ -159,7 +159,8 @@ img:hover{
 }
 #warning{
     position: absolute;
-    margin-left: 20%;
-    font-size:26px;
+    margin-left: 30%;
+    margin-top: 5%;
+    font-size:35px;
     color: rgba(0, 0, 0, 0.116);
 }
